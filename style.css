@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* common style */
+.btn {
+  font-size: 24px;
+  padding: 15px 20px;
+  border: none;
+  color: aliceblue;
+  border-radius: 5px;
+  background-color: chocolate;
+}
+/* part-1 start  */
+.part-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.part-1-img {
+  flex: 1;
+  width: 200px;
+}
+.part-1-doc {
+  flex: 1;
+  text-align: center;
+  margin-right: 80px;
+  text-align: right;
+}
+.part-1-doc h1 {
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.part-1-doc p {
+  color: gray;
+  margin-bottom: 20px;
+}
+/* part-2 start  */
+.part-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.part-2-img {
+  flex: 1;
+  display: inline-block;
+  margin-left: 80px;
+  margin-bottom: 300px;
+  background-color: chocolate;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  margin-top: 200px;
+}
+.part-2-doc {
+  flex: 1;
+  text-align: center;
+  margin-left: 300px;
+  text-align: left;
+  /* margin-top: 20px; */
+}
+.part-2-doc h1 {
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.part-2-doc p,
+h4 {
+  color: gray;
+  margin-bottom: 10px;
+}
+.icon {
+  margin-left: 5px;
+  color: skyblue;
+}
+
+.img-p {
+  display: flex;
+}
+.img-part-2 {
+  margin-top: -150px;
+}
+/* card start here  */
+.card-head {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.card {
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: lavender;
+  padding: 50px;
+}
+.card p {
+  color: gray;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+/* banner star here   */
+.banner {
+  background-image: url(images/gradient1.png), url(images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.banner h1 {
+  color: black;
+  padding: 50px;
+}
+.banner button {
+  margin-top: 10px;
+}
+/* footer start here  */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 900px;
+  height: 600px;
+  margin: auto;
+  color: aliceblue;
+  background-color: black;
+}
+.footer-form {
+  margin-right: 40px;
+  text-align: center;
+}
+.footer-form h1 {
+  margin: 30px;
+}
+.footer-doc {
+  flex: 1;
+  margin: 10px 20px;
+  text-align: center;
+}
+.footer-doc h1 {
+  margin: 30px;
+}
+.footer-doc p {
+  margin-bottom: 15px;
+}
+.input {
+  width: 150px;
+  height: 30px;
+  margin-right: 40px;
+  margin: 10px;
+  color: aliceblue;
+  background-color: black;
+}
